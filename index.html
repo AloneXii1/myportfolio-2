@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | นายภูมิรพี คูนุกูล (แอนฟิลด์)</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: linear-gradient(135deg,#0f172a,#1e3a8a,#38bdf8);
+    color:#333;
+    line-height:1.7;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:40px 0;
+}
+
+/* Header */
+
+header{
+    text-align:center;
+    color:white;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:45px;
+}
+
+header h2{
+    font-weight:normal;
+    margin-top:10px;
+}
+
+header p{
+    margin-top:15px;
+    font-size:18px;
+}
+
+/* Card */
+
+.card{
+    background:white;
+    border-radius:18px;
+    padding:30px;
+    margin-bottom:30px;
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h2{
+    color:#2563eb;
+    margin-bottom:20px;
+    border-left:6px solid #2563eb;
+    padding-left:10px;
+}
+
+.profile{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+}
+
+.profile img{
+    width:280px;
+    border-radius:15px;
+    border:5px solid #2563eb;
+}
+
+.info{
+    flex:1;
+    min-width:280px;
+}
+
+.info p{
+    margin:10px 0;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:12px;
+}
+
+.project img{
+    width:100%;
+    margin-top:20px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    font-size:18px;
+    margin:10px;
+}
+
+footer{
+    text-align:center;
+    color:white;
+    padding:20px;
+    font-size:15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>💼 Portfolio</h1>
+    <h2>ยินดีต้อนรับสู่พอร์ตโฟลิโอของแอนฟิลด์</h2>
+    <p>นักศึกษาสาขาเทคโนโลยีสารสนเทศ</p>
+</header>
+
+<div class="container">
+
+    <!-- ประวัติ -->
+    <section class="card">
+        <h2>👤 ประวัติส่วนตัว</h2>
+
+        <div class="profile">
+
+            <img src="https://github.com/user-attachments/assets/71d462e6-e2e7-49c7-a59a-de9dd9415eae" alt="Profile">
+
+            <div class="info">
+                <p><strong>ชื่อ-นามสกุล :</strong> นายภูมิรพี คูนุกูล (แอนฟิลด์)</p>
+
+                <p><strong>ตำแหน่ง :</strong> นักศึกษาวิชาเทคโนโลยีสารสนเทศ</p>
+
+                <p><strong>ระดับชั้น :</strong> ปวช.3 สาขางานเทคโนโลยีสารสนเทศ</p>
+
+                <p><strong>เป้าหมาย :</strong> ศึกษาต่อในระดับมหาวิทยาลัย และหลังจากสำเร็จการศึกษาต้องการเข้าทำงานที่กรมที่ดิน</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ทักษะ -->
+    <section class="card">
+
+        <h2>💻 ทักษะและความสามารถ</h2>
+
+        <ul>
+            <li>✅ ใช้งาน VS Code ได้อย่างคล่องแคล่ว</li>
+            <li>✅ ใช้งาน Photoshop ได้ดี</li>
+            <li>✅ ออกแบบ UI ด้วย Figma</li>
+            <li>✅ ใช้งาน Microsoft Word และ Excel ได้อย่างชำนาญ</li>
+            <li>✅ เขียนภาษา HTML, CSS, JavaScript, PHP และ SQL ได้ในระดับปานกลาง</li>
+        </ul>
+
+    </section>
+
+    <!-- โปรเจกต์ -->
+    <section class="card project">
+
+        <h2>📊 โปรเจกต์จบ (Final Project)</h2>
+
+        <p><strong>ชื่อโปรเจกต์ :</strong> เว็บไซต์จองคิวร้านตัดผม UK Barber</p>
+
+        <br>
+
+        <p><strong>รายละเอียด :</strong></p>
+
+        <ul>
+            <li>พัฒนาเว็บไซต์สำหรับจองคิวร้านตัดผม</li>
+            <li>ช่วยลดระยะเวลาการรอคิวและเพิ่มความสะดวกให้ลูกค้า</li>
+            <li>รับหน้าที่หัวหน้าโครงการ ดูแลการพัฒนาเว็บไซต์ และจัดทำเอกสารทั้งหมด</li>
+        </ul>
+
+        <img src="https://github.com/user-attachments/assets/23aa0a7c-e9a6-4f72-abc1-591e878a60ca" alt="Project">
+
+    </section>
+
+    <!-- ติดต่อ -->
+    <section class="card contact">
+
+        <h2>📞 ช่องทางการติดต่อ</h2>
+
+        <p>📧 Email : anfieldkunukul726@gmail.com</p>
+
+        <p>💬 Line ID : @mafield2551</p>
+
+        <p>📷 Instagram : _.saintfieldsantos</p>
+
+    </section>
+
+</div>
+
+<footer>
+    © 2026 Portfolio | นายภูมิรพี คูนุกูล (แอนฟิลด์)
+</footer>
+
+</body>
+</html>
